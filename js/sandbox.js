@@ -1,4 +1,5 @@
 // where modules can interact w/o granting access to app core and base
+// give modules enough functionality from core to run in sandbox but not to damage anything
 
 var SandBox = {
  create : function (core, module_selector) {

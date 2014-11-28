@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
+
+body {
+  width: 950px;
+  margin: auto;
+  background: #ececec;
+  font-family: "La Belle Aurore";
+  font-size: 1.5em;
+}
+
+#main {
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+h1, #search-box, #filters-bar {
+  margin-left: 10px;
+}
+
+#filters-bar ul {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 2px dashed #474747;
+  border-bottom: 2px dashed #474747;
+}
+
+#filters-bar li {
+  padding: 5px 10px 5px 0;
+  display: inline-block;
+}
+
+#filters-bar li a {
+  text-decoration: none;
+  color: #474747; 
+}
+
+#product-panel {
+  width: 600px;
+  float: left;
+}
+
+#product-panel ul {
+  margin: 0;
+  padding: 0;
+}
+
+#product-panel li {
+  margin: 10px;
+  padding: 15px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+#product-panel li p {
+  margin: 10px 0 0 0;
+}
+
+#shopping-cart {
+  width: 250px;
+  height: 300px;
+  margin-top: 25px;
+  padding: 30px;
+  float: left;
+  background: #ccc;
+  border-radius: 15px;
+}
+
+#shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#shopping-cart li {
+  padding: 3px;
+  margin:  2px 0;
+  background: #ececec;
+  border: 1px solid #333;
+}
+
+#shopping-cart .product_name {
+  display: inline-block;
+  width: 230px;
+}
+
+#shopping-cart .price {
+  display: inline-block;
+  float: right;
+}
+
+img {
+  border-radius: 15px;
+}
